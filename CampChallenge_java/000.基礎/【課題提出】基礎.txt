@@ -1,0 +1,4 @@
+デバイス名　DESKTOP-HQB614M
+プロセッサ　core i5 2520m	cpu 2.50GHz
+os          windows 10 home 64ビット
+グラフィック　intel(R)HD Grafics 3000
