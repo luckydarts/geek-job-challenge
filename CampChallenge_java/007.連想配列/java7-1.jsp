@@ -17,7 +17,11 @@
         x.put("1","AAA");
         x.put("hello", "world");
         x.put("soeda", "33");
-        x.put("20", "20");                               
+        x.put("20", "20");
+        out.print(x.get("1"));
+        out.print(x.get("hello"));
+        out.print(x.get("soeda"));
+        out.print(x.get("20"));
             %>
     </body>
 </html>
