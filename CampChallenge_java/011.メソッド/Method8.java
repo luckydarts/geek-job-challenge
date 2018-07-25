@@ -45,9 +45,14 @@ public class Method8 extends HttpServlet {
             out.println("<title>Servlet Method8</title>");            
             out.println("</head>");
             out.println("<body>");
-            String[] result= userProfile(1);
-            
-        }
+            //userProfileの後の（1）は上のメソッド内で文字列を数字値に変換したもの
+            for (int j =1; j < 4; j++){
+            String[] result= userProfile(j);    
+            for (int i =1; i < 5; i++){
+                out.print(result[i]);
+                out.print("，");
+            }
+            }
             out.println("</body>");
             out.println("</html>");
         }
