@@ -12,8 +12,8 @@ import java.util.Date;
  *
  * @author guest1Day
  */
-public class HClass_1 {
-
+public class Timestamp {
+    
     public static void main(String[]args){
 
         Calendar c = Calendar.getInstance();
@@ -24,3 +24,4 @@ public class HClass_1 {
         System.out.println(date);
     }
 }
+

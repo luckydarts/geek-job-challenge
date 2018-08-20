@@ -12,7 +12,8 @@ import java.util.Date;
  *
  * @author guest1Day
  */
-public class HClass_3 {
+public class Timestamp3 {
+    
     public static void main (String[]args){
         Calendar c1 = Calendar.getInstance();
         Calendar c2 = Calendar.getInstance();

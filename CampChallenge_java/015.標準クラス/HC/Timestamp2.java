@@ -13,8 +13,8 @@ import java.util.Date;
  *
  * @author guest1Day
  */
-public class HClass_2 {
-
+public class Timestamp2 {
+    
     public static void  main(String[]args){
         Calendar c = Calendar.getInstance();
         //カレンダーで指定した日時をタイムスタンプに変換
@@ -28,4 +28,5 @@ public class HClass_2 {
         String dataString = sdf.format(date);
         System.out.println(dataString);
     }
+
 }
