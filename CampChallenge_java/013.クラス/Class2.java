@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.camp;
+package org.camp.Class;
 
 /**
  *
@@ -13,10 +13,10 @@ package org.camp;
 public class Class2 extends Class1 {
 
     public void clearProfile(){
-//数値のクリア
-name=null;
-age=0;
-address=null;
-}
+    //数値のクリア
+    name=null;
+    age=0;
+    address=null;
+    }
     
 }
