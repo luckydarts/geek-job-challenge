@@ -1,0 +1,2 @@
+MariaDB [(none)]> INSERT INTO profiles(profilesID,name,tel,age,birthday)VALUES(1,'“c’† ŽÀ','012-345-6789',30,1994-02-01);
+
